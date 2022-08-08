@@ -13,6 +13,10 @@
 		4FEB03B2289EFC4F0010A027 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FEB03B0289EFC4F0010A027 /* Main.storyboard */; };
 		4FEB03B4289EFC510010A027 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FEB03B3289EFC510010A027 /* Assets.xcassets */; };
 		4FEB03B7289EFC510010A027 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FEB03B5289EFC510010A027 /* LaunchScreen.storyboard */; };
+		4FEB03C0289FA3BC0010A027 /* unchecked-checkbox.png in Resources */ = {isa = PBXBuildFile; fileRef = 4FEB03BF289FA3BC0010A027 /* unchecked-checkbox.png */; };
+		4FEB03C2289FA3C40010A027 /* checked.png in Resources */ = {isa = PBXBuildFile; fileRef = 4FEB03C1289FA3C40010A027 /* checked.png */; };
+		4FEB03C4289FCD6C0010A027 /* checkedRadio.png in Resources */ = {isa = PBXBuildFile; fileRef = 4FEB03C3289FCD6C0010A027 /* checkedRadio.png */; };
+		4FEB03C6289FCD710010A027 /* uncheckedRadio.png in Resources */ = {isa = PBXBuildFile; fileRef = 4FEB03C5289FCD710010A027 /* uncheckedRadio.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		4FEB03B3289EFC510010A027 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4FEB03B6289EFC510010A027 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4FEB03B8289EFC510010A027 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FEB03BF289FA3BC0010A027 /* unchecked-checkbox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "unchecked-checkbox.png"; path = "../../../../Downloads/unchecked-checkbox.png"; sourceTree = "<group>"; };
+		4FEB03C1289FA3C40010A027 /* checked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = checked.png; path = ../../../../Downloads/checked.png; sourceTree = "<group>"; };
+		4FEB03C3289FCD6C0010A027 /* checkedRadio.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = checkedRadio.png; path = ../../../../Downloads/checkedRadio.png; sourceTree = "<group>"; };
+		4FEB03C5289FCD710010A027 /* uncheckedRadio.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = uncheckedRadio.png; path = ../../../../Downloads/uncheckedRadio.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +71,10 @@
 				4FEB03B3289EFC510010A027 /* Assets.xcassets */,
 				4FEB03B5289EFC510010A027 /* LaunchScreen.storyboard */,
 				4FEB03B8289EFC510010A027 /* Info.plist */,
+				4FEB03BF289FA3BC0010A027 /* unchecked-checkbox.png */,
+				4FEB03C1289FA3C40010A027 /* checked.png */,
+				4FEB03C3289FCD6C0010A027 /* checkedRadio.png */,
+				4FEB03C5289FCD710010A027 /* uncheckedRadio.png */,
 			);
 			path = demoService;
 			sourceTree = "<group>";
@@ -125,9 +137,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4FEB03C2289FA3C40010A027 /* checked.png in Resources */,
+				4FEB03C6289FCD710010A027 /* uncheckedRadio.png in Resources */,
 				4FEB03B7289EFC510010A027 /* LaunchScreen.storyboard in Resources */,
 				4FEB03B4289EFC510010A027 /* Assets.xcassets in Resources */,
 				4FEB03B2289EFC4F0010A027 /* Main.storyboard in Resources */,
+				4FEB03C0289FA3BC0010A027 /* unchecked-checkbox.png in Resources */,
+				4FEB03C4289FCD6C0010A027 /* checkedRadio.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
